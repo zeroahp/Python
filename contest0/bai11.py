@@ -1,5 +1,8 @@
 x = int(input())
 print(x*2)
+print()
 print(x*10)
+print()
 print(x//2)
+print()
 print('%.3f' % (x/2))
