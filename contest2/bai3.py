@@ -2,7 +2,6 @@ n = int(input())
 
 s = 0
 
-for i in range(n):
-    if(i %3 ==0):
-        s += i
+for i in range(0,n+1,3):
+    s+= i
 print(s)
